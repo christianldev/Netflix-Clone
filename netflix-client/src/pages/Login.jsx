@@ -28,7 +28,8 @@ export const Login = () => {
                 </label>
                 <input
                   class=" w-full text-base px-4 py-2 bg-slate-700 rounded-full text-gray-200"
-                  type=""
+                  type="email"
+                  name="email"
                   placeholder="mail@gmail.com"
                 />
               </div>
@@ -38,8 +39,9 @@ export const Login = () => {
                 </label>
                 <input
                   class="w-full content-center text-base px-4 py-2 bg-slate-700 rounded-full text-gray-200"
-                  type=""
-                  placeholder="Enter your password"
+                  type="password"
+                  name="password"
+                  placeholder="Ingresa tu contraseña"
                 />
               </div>
               <div class="flex items-center justify-between">
@@ -59,7 +61,7 @@ export const Login = () => {
                 </div>
                 <div class="text-sm">
                   <a href="#" class="text-red-500 hover:text-red-600">
-                    Forgot your password?
+                    Contraseña olvidada?
                   </a>
                 </div>
               </div>

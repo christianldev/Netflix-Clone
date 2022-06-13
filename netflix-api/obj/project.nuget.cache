@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "28fXt1fLpCaV9RekkYGFTkDsKClOm/2d4JloJOTziq7Y/v3UAzKeNevnHUDSkEpJrNxfOPd73FKMQH4esCouRg==",
+  "dgSpecHash": "xY0SZ+or3Srt5Lw5Y+cXY00AmXSm84UPQGSjZJp/Q6p4zg5dExZl25Uw3QXWpNdpBxwdz9YwvQDjtk8RVZAVnw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Christian Lopez\\Documents\\Programacion\\C#\\Netflix-Clone\\netflix-api\\netflix-api.csproj",
+  "projectFilePath": "C:\\laragon\\www\\Netflix-Clone\\netflix-api\\netflix-api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Christian Lopez\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\Christian Lopez\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

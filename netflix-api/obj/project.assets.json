@@ -213,11 +213,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Christian Lopez\\Documents\\Programacion\\C#\\Netflix-Clone\\netflix-api\\netflix-api.csproj",
+      "projectUniqueName": "C:\\laragon\\www\\Netflix-Clone\\netflix-api\\netflix-api.csproj",
       "projectName": "netflix-api",
-      "projectPath": "C:\\Users\\Christian Lopez\\Documents\\Programacion\\C#\\Netflix-Clone\\netflix-api\\netflix-api.csproj",
+      "projectPath": "C:\\laragon\\www\\Netflix-Clone\\netflix-api\\netflix-api.csproj",
       "packagesPath": "C:\\Users\\Christian Lopez\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Christian Lopez\\Documents\\Programacion\\C#\\Netflix-Clone\\netflix-api\\obj\\",
+      "outputPath": "C:\\laragon\\www\\Netflix-Clone\\netflix-api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Christian Lopez\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -25,3 +25,30 @@ C:\Users\Christian Lopez\Documents\Programacion\C#\Netflix-Clone\netflix-api\obj
 C:\Users\Christian Lopez\Documents\Programacion\C#\Netflix-Clone\netflix-api\obj\Debug\net6.0\netflix-api.pdb
 C:\Users\Christian Lopez\Documents\Programacion\C#\Netflix-Clone\netflix-api\obj\Debug\net6.0\netflix-api.genruntimeconfig.cache
 C:\Users\Christian Lopez\Documents\Programacion\C#\Netflix-Clone\netflix-api\obj\Debug\net6.0\ref\netflix-api.dll
+C:\laragon\www\Netflix-Clone\netflix-api\bin\Debug\net6.0\appsettings.Development.json
+C:\laragon\www\Netflix-Clone\netflix-api\bin\Debug\net6.0\appsettings.json
+C:\laragon\www\Netflix-Clone\netflix-api\bin\Debug\net6.0\netflix-api.exe
+C:\laragon\www\Netflix-Clone\netflix-api\bin\Debug\net6.0\netflix-api.deps.json
+C:\laragon\www\Netflix-Clone\netflix-api\bin\Debug\net6.0\netflix-api.runtimeconfig.json
+C:\laragon\www\Netflix-Clone\netflix-api\bin\Debug\net6.0\netflix-api.dll
+C:\laragon\www\Netflix-Clone\netflix-api\bin\Debug\net6.0\netflix-api.pdb
+C:\laragon\www\Netflix-Clone\netflix-api\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\laragon\www\Netflix-Clone\netflix-api\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\laragon\www\Netflix-Clone\netflix-api\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\laragon\www\Netflix-Clone\netflix-api\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\laragon\www\Netflix-Clone\netflix-api\obj\Debug\net6.0\netflix-api.csproj.AssemblyReference.cache
+C:\laragon\www\Netflix-Clone\netflix-api\obj\Debug\net6.0\netflix-api.GeneratedMSBuildEditorConfig.editorconfig
+C:\laragon\www\Netflix-Clone\netflix-api\obj\Debug\net6.0\netflix-api.AssemblyInfoInputs.cache
+C:\laragon\www\Netflix-Clone\netflix-api\obj\Debug\net6.0\netflix-api.AssemblyInfo.cs
+C:\laragon\www\Netflix-Clone\netflix-api\obj\Debug\net6.0\netflix-api.csproj.CoreCompileInputs.cache
+C:\laragon\www\Netflix-Clone\netflix-api\obj\Debug\net6.0\netflix-api.MvcApplicationPartsAssemblyInfo.cs
+C:\laragon\www\Netflix-Clone\netflix-api\obj\Debug\net6.0\netflix-api.MvcApplicationPartsAssemblyInfo.cache
+C:\laragon\www\Netflix-Clone\netflix-api\obj\Debug\net6.0\staticwebassets.build.json
+C:\laragon\www\Netflix-Clone\netflix-api\obj\Debug\net6.0\staticwebassets.development.json
+C:\laragon\www\Netflix-Clone\netflix-api\obj\Debug\net6.0\scopedcss\bundle\netflix-api.styles.css
+C:\laragon\www\Netflix-Clone\netflix-api\obj\Debug\net6.0\netflix-api.csproj.CopyComplete
+C:\laragon\www\Netflix-Clone\netflix-api\obj\Debug\net6.0\netflix-api.dll
+C:\laragon\www\Netflix-Clone\netflix-api\obj\Debug\net6.0\refint\netflix-api.dll
+C:\laragon\www\Netflix-Clone\netflix-api\obj\Debug\net6.0\netflix-api.pdb
+C:\laragon\www\Netflix-Clone\netflix-api\obj\Debug\net6.0\netflix-api.genruntimeconfig.cache
+C:\laragon\www\Netflix-Clone\netflix-api\obj\Debug\net6.0\ref\netflix-api.dll

@@ -1,0 +1,12 @@
+D:\PROGRAMAS2022\Netflix-Clone\netflix.api.applicationn\bin\Release\net5.0\netflix.api.application.deps.json
+D:\PROGRAMAS2022\Netflix-Clone\netflix.api.applicationn\bin\Release\net5.0\netflix.api.application.dll
+D:\PROGRAMAS2022\Netflix-Clone\netflix.api.applicationn\bin\Release\net5.0\ref\netflix.api.application.dll
+D:\PROGRAMAS2022\Netflix-Clone\netflix.api.applicationn\bin\Release\net5.0\netflix.api.application.pdb
+D:\PROGRAMAS2022\Netflix-Clone\netflix.api.applicationn\obj\Release\net5.0\netflix.api.application.csproj.AssemblyReference.cache
+D:\PROGRAMAS2022\Netflix-Clone\netflix.api.applicationn\obj\Release\net5.0\netflix.api.application.GeneratedMSBuildEditorConfig.editorconfig
+D:\PROGRAMAS2022\Netflix-Clone\netflix.api.applicationn\obj\Release\net5.0\netflix.api.application.AssemblyInfoInputs.cache
+D:\PROGRAMAS2022\Netflix-Clone\netflix.api.applicationn\obj\Release\net5.0\netflix.api.application.AssemblyInfo.cs
+D:\PROGRAMAS2022\Netflix-Clone\netflix.api.applicationn\obj\Release\net5.0\netflix.api.application.csproj.CoreCompileInputs.cache
+D:\PROGRAMAS2022\Netflix-Clone\netflix.api.applicationn\obj\Release\net5.0\netflix.api.application.dll
+D:\PROGRAMAS2022\Netflix-Clone\netflix.api.applicationn\obj\Release\net5.0\ref\netflix.api.application.dll
+D:\PROGRAMAS2022\Netflix-Clone\netflix.api.applicationn\obj\Release\net5.0\netflix.api.application.pdb

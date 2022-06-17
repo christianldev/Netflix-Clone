@@ -1,0 +1,60 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\PROGRAMAS2022\\Netflix-Clone\\netflix-api\\netflix.api.website\\netflix.api.website.csproj": {}
+  },
+  "projects": {
+    "D:\\PROGRAMAS2022\\Netflix-Clone\\netflix-api\\netflix.api.website\\netflix.api.website.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\PROGRAMAS2022\\Netflix-Clone\\netflix-api\\netflix.api.website\\netflix.api.website.csproj",
+        "projectName": "netflix.api.website",
+        "projectPath": "D:\\PROGRAMAS2022\\Netflix-Clone\\netflix-api\\netflix.api.website\\netflix.api.website.csproj",
+        "packagesPath": "C:\\Users\\spovedav96\\.nuget\\packages\\",
+        "outputPath": "D:\\PROGRAMAS2022\\Netflix-Clone\\netflix-api\\netflix.api.website\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\spovedav96\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.409\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

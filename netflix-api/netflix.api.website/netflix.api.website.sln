@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32602.291
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "netflix.api.repo", "..\netflix.api.repo\netflix.api.repo.csproj", "{48DCE7D4-D53B-483A-940D-20F1014F5DDD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "netflix.api.application", "..\netflix.api.applicationn\netflix.api.application.csproj", "{F2CFDBA9-E0C4-4FB4-B644-62D872E4A9A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "netflix.api.web", "..\netflix.api.web\netflix.api.web.csproj", "{27137781-3702-485F-A44A-039F52E6229E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48DCE7D4-D53B-483A-940D-20F1014F5DDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48DCE7D4-D53B-483A-940D-20F1014F5DDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48DCE7D4-D53B-483A-940D-20F1014F5DDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48DCE7D4-D53B-483A-940D-20F1014F5DDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2CFDBA9-E0C4-4FB4-B644-62D872E4A9A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2CFDBA9-E0C4-4FB4-B644-62D872E4A9A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2CFDBA9-E0C4-4FB4-B644-62D872E4A9A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2CFDBA9-E0C4-4FB4-B644-62D872E4A9A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27137781-3702-485F-A44A-039F52E6229E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27137781-3702-485F-A44A-039F52E6229E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27137781-3702-485F-A44A-039F52E6229E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27137781-3702-485F-A44A-039F52E6229E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2240B78A-0EF1-4837-B9F2-13318D06C137}
+	EndGlobalSection
+EndGlobal

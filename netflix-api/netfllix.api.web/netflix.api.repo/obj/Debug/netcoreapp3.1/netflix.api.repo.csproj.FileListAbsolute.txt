@@ -1,0 +1,10 @@
+D:\PROGRAMAS2022\Netflix-Clone\netflix-api\netfllix.api.web\netflix.api.repo\bin\Debug\netcoreapp3.1\netflix.api.repo.deps.json
+D:\PROGRAMAS2022\Netflix-Clone\netflix-api\netfllix.api.web\netflix.api.repo\bin\Debug\netcoreapp3.1\netflix.api.repo.dll
+D:\PROGRAMAS2022\Netflix-Clone\netflix-api\netfllix.api.web\netflix.api.repo\bin\Debug\netcoreapp3.1\netflix.api.repo.pdb
+D:\PROGRAMAS2022\Netflix-Clone\netflix-api\netfllix.api.web\netflix.api.repo\obj\Debug\netcoreapp3.1\netflix.api.repo.csproj.AssemblyReference.cache
+D:\PROGRAMAS2022\Netflix-Clone\netflix-api\netfllix.api.web\netflix.api.repo\obj\Debug\netcoreapp3.1\netflix.api.repo.GeneratedMSBuildEditorConfig.editorconfig
+D:\PROGRAMAS2022\Netflix-Clone\netflix-api\netfllix.api.web\netflix.api.repo\obj\Debug\netcoreapp3.1\netflix.api.repo.AssemblyInfoInputs.cache
+D:\PROGRAMAS2022\Netflix-Clone\netflix-api\netfllix.api.web\netflix.api.repo\obj\Debug\netcoreapp3.1\netflix.api.repo.AssemblyInfo.cs
+D:\PROGRAMAS2022\Netflix-Clone\netflix-api\netfllix.api.web\netflix.api.repo\obj\Debug\netcoreapp3.1\netflix.api.repo.csproj.CoreCompileInputs.cache
+D:\PROGRAMAS2022\Netflix-Clone\netflix-api\netfllix.api.web\netflix.api.repo\obj\Debug\netcoreapp3.1\netflix.api.repo.dll
+D:\PROGRAMAS2022\Netflix-Clone\netflix-api\netfllix.api.web\netflix.api.repo\obj\Debug\netcoreapp3.1\netflix.api.repo.pdb

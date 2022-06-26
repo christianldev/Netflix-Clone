@@ -442,23 +442,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\spovedav96\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Christian Lopez\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\PROGRAMAS2022\\Netflix-Clone\\netflix-api\\netfllix.api.web\\netflix.api.application\\netflix.api.application.csproj",
+      "projectUniqueName": "C:\\laragon\\www\\Netflix-Clone\\netflix-api\\netfllix.api.web\\netflix.api.application\\netflix.api.application.csproj",
       "projectName": "netflix.api.application",
-      "projectPath": "D:\\PROGRAMAS2022\\Netflix-Clone\\netflix-api\\netfllix.api.web\\netflix.api.application\\netflix.api.application.csproj",
-      "packagesPath": "C:\\Users\\spovedav96\\.nuget\\packages\\",
-      "outputPath": "D:\\PROGRAMAS2022\\Netflix-Clone\\netflix-api\\netfllix.api.web\\netflix.api.application\\obj\\",
+      "projectPath": "C:\\laragon\\www\\Netflix-Clone\\netflix-api\\netfllix.api.web\\netflix.api.application\\netflix.api.application.csproj",
+      "packagesPath": "C:\\Users\\Christian Lopez\\.nuget\\packages\\",
+      "outputPath": "C:\\laragon\\www\\Netflix-Clone\\netflix-api\\netfllix.api.web\\netflix.api.application\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\spovedav96\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Christian Lopez\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -507,12 +503,26 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.1.10, 3.1.10]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[3.1.0, 3.1.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[3.1.0, 3.1.0]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.409\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }

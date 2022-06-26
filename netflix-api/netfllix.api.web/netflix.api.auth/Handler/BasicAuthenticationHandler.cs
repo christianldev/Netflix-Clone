@@ -44,7 +44,7 @@ namespace netflix.api.auth.Handler
 
                 if (!_authService.CheckUser(username, password))
                 {
-                    throw new ArgumentException("El usuario o contracena son incorrectas");
+                    throw new ArgumentException("Usuario o contrasena incorrectos");
                 }
             }
             catch (Exception ex)

@@ -24,20 +24,22 @@ namespace netflix.api.auth.Controllers
             _logger = logger;
         }
 
-        [AllowAnonymous]
         [HttpPost]
         public IActionResult Login(AuthRequest request)
         {
             var modelo = new AuthResponse();
-            if (request.Username == "admin")
+
+            if (request.Password == "admin" && request.Email == "admin@correo.com")
             {
                 modelo.Token = _tokenservice.CreateToken(request);
-                modelo.User = new User()
-                {
-                    Email = "admin@correo.com",
-                    Username = "admin",
-                    Phone = "99999999"
-                };
+                //modelo.User = new User()
+                //{
+                //    Email = "admin@correo.com",
+                //    Username = "admin",
+                //    Password = "admin"
+                //};
+
+
             }
             else
             {
@@ -46,7 +48,7 @@ namespace netflix.api.auth.Controllers
                 {
                     Email = "null",
                     Username = "null",
-                    Phone = "null"
+                    Password = "null"
                 };
                 modelo.MensajeError = "Las credenciales no son validas";
                 return Unauthorized(modelo);

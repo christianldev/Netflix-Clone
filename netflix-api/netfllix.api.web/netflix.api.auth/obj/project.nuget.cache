@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "h598/X7dVUwWeuud0MJkSeZ+3bibBdmL+z+06oAjVpFrpDH635BEWU+B7axKF7UG/L8xHba2yqUQje87uGuBRQ==",
+  "dgSpecHash": "a9x7oOdIYLXSFExhkskBZqpX1HiMX61wqyq7wynTXAFOhg9AW8VaDMaFC4An1Du1U0z/Zu7zmCtyEGcYigHodQ==",
   "success": true,
   "projectFilePath": "C:\\laragon\\www\\Netflix-Clone\\netflix-api\\netfllix.api.web\\netflix.api.auth\\netflix.api.auth.csproj",
   "expectedPackageFiles": [
@@ -26,11 +26,7 @@
     "C:\\Users\\Christian Lopez\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512",
     "C:\\Users\\Christian Lopez\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.20.0\\system.identitymodel.tokens.jwt.6.20.0.nupkg.sha512",
     "C:\\Users\\Christian Lopez\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
-    "C:\\Users\\Christian Lopez\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512",
-    "C:\\Users\\Christian Lopez\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
-    "C:\\Users\\Christian Lopez\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
-    "C:\\Users\\Christian Lopez\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
-    "C:\\Users\\Christian Lopez\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.26\\microsoft.netcore.app.host.win-x64.3.1.26.nupkg.sha512"
+    "C:\\Users\\Christian Lopez\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512"
   ],
   "logs": []
 }

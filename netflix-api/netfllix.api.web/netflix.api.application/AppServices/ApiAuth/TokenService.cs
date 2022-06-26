@@ -22,10 +22,9 @@ namespace netflix.api.application.AppServices.ApiAuth
 
         public string CreateToken(AuthRequest usuario)
         {
-            var claims = new List<Claim>
+            var claims = new[]
             {
-                new Claim(JwtRegisteredClaimNames.NameId, usuario.Username),
-                new Claim("Dato1", "Pruebaaaaaaa")
+                new Claim(JwtRegisteredClaimNames.Email, usuario.Email),
             };
 
             var credenciales = new SigningCredentials(_ssKey, SecurityAlgorithms.HmacSha256Signature);

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "db/mi24dr61Q4C/rQ2MRqaRFae1X1p+mo9Ym+maR+zwqXvfJm0OXEkTguSbky3XmFCP+DVqkxZsK04IvUvU9aw==",
+  "dgSpecHash": "vnxzNGneUh7yVMe4rzBLVoPNev2J5I89C9lS4vj1F2FJKZaVSSNez/uXPH+aHioxFEFS/O8I2BjT5+eOitA//w==",
   "success": true,
-  "projectFilePath": "D:\\PROGRAMAS2022\\Netflix-Clone\\netflix-api\\netfllix.api.web\\netflix.api.repo\\netflix.api.repo.csproj",
+  "projectFilePath": "C:\\laragon\\www\\Netflix-Clone\\netflix-api\\netfllix.api.web\\netflix.api.repo\\netflix.api.repo.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

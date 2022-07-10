@@ -29,6 +29,12 @@ namespace netflix.api.auth.Controllers
         {
             var modelo = new AuthResponse();
 
+            if (string.IsNullOrEmpty(request.Email) || string.IsNullOrEmpty(request.Password))
+            {
+                modelo.MensajeError = "Debe ingresar un correo y contraseña";
+                return BadRequest(modelo);
+            }
+
             if (request.Password == "admin" && request.Email == "admin@correo.com")
             {
                 modelo.Token = _tokenservice.CreateToken(request);

@@ -1,13 +1,18 @@
 import React from 'react';
 
-import logo from '../../assets/img/logo_light.png';
+import logo from '../../assets/img/logo_light.svg';
 
-export default function ApplicationLogo() {
+export default function ApplicationLogo({ width, height, className }) {
+  console.log(width);
+
   return (
-    <div className="flex-col flex  self-center p-10 sm:max-w-5xl xl:max-w-3xl z-10">
-      <div className="self-start hidden lg:flex flex-col  text-white">
-        <img src={logo} className="mb-3 w-84 h-48" />
-      </div>
+    <div className="flex-col flex  self-center p-2 sm:max-w-5xl xl:max-w-3xl z-10">
+      <img
+        src={logo}
+        className={'mb-3' + `${className}`}
+        width={width}
+        height={height}
+      />
     </div>
   );
 }

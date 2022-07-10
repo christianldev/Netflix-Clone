@@ -18,3 +18,13 @@ C:\laragon\www\Netflix-Clone\netflix-api\netfllix.api.web\netflix.api.applicatio
 C:\laragon\www\Netflix-Clone\netflix-api\netfllix.api.web\netflix.api.application\obj\Debug\netcoreapp3.1\netflix.api.application.csproj.CoreCompileInputs.cache
 C:\laragon\www\Netflix-Clone\netflix-api\netfllix.api.web\netflix.api.application\obj\Debug\netcoreapp3.1\netflix.api.application.dll
 C:\laragon\www\Netflix-Clone\netflix-api\netfllix.api.web\netflix.api.application\obj\Debug\netcoreapp3.1\netflix.api.application.pdb
+D:\PROYECTOS2022\Netflix-Clone\netflix-api\netfllix.api.web\netflix.api.application\bin\Debug\netcoreapp3.1\netflix.api.application.deps.json
+D:\PROYECTOS2022\Netflix-Clone\netflix-api\netfllix.api.web\netflix.api.application\bin\Debug\netcoreapp3.1\netflix.api.application.dll
+D:\PROYECTOS2022\Netflix-Clone\netflix-api\netfllix.api.web\netflix.api.application\bin\Debug\netcoreapp3.1\netflix.api.application.pdb
+D:\PROYECTOS2022\Netflix-Clone\netflix-api\netfllix.api.web\netflix.api.application\obj\Debug\netcoreapp3.1\netflix.api.application.csproj.AssemblyReference.cache
+D:\PROYECTOS2022\Netflix-Clone\netflix-api\netfllix.api.web\netflix.api.application\obj\Debug\netcoreapp3.1\netflix.api.application.GeneratedMSBuildEditorConfig.editorconfig
+D:\PROYECTOS2022\Netflix-Clone\netflix-api\netfllix.api.web\netflix.api.application\obj\Debug\netcoreapp3.1\netflix.api.application.AssemblyInfoInputs.cache
+D:\PROYECTOS2022\Netflix-Clone\netflix-api\netfllix.api.web\netflix.api.application\obj\Debug\netcoreapp3.1\netflix.api.application.AssemblyInfo.cs
+D:\PROYECTOS2022\Netflix-Clone\netflix-api\netfllix.api.web\netflix.api.application\obj\Debug\netcoreapp3.1\netflix.api.application.csproj.CoreCompileInputs.cache
+D:\PROYECTOS2022\Netflix-Clone\netflix-api\netfllix.api.web\netflix.api.application\obj\Debug\netcoreapp3.1\netflix.api.application.dll
+D:\PROYECTOS2022\Netflix-Clone\netflix-api\netfllix.api.web\netflix.api.application\obj\Debug\netcoreapp3.1\netflix.api.application.pdb

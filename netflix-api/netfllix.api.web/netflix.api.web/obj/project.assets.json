@@ -966,23 +966,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\spovedav96\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Christian Lopez\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\PROYECTOS2022\\Netflix-Clone\\netflix-api\\netfllix.api.web\\netflix.api.web\\netflix.api.web.csproj",
+      "projectUniqueName": "C:\\laragon\\www\\Netflix-Clone\\netflix-api\\netfllix.api.web\\netflix.api.web\\netflix.api.web.csproj",
       "projectName": "netflix.api.web",
-      "projectPath": "D:\\PROYECTOS2022\\Netflix-Clone\\netflix-api\\netfllix.api.web\\netflix.api.web\\netflix.api.web.csproj",
-      "packagesPath": "C:\\Users\\spovedav96\\.nuget\\packages\\",
-      "outputPath": "D:\\PROYECTOS2022\\Netflix-Clone\\netflix-api\\netfllix.api.web\\netflix.api.web\\obj\\",
+      "projectPath": "C:\\laragon\\www\\Netflix-Clone\\netflix-api\\netfllix.api.web\\netflix.api.web\\netflix.api.web.csproj",
+      "packagesPath": "C:\\Users\\Christian Lopez\\.nuget\\packages\\",
+      "outputPath": "C:\\laragon\\www\\Netflix-Clone\\netflix-api\\netfllix.api.web\\netflix.api.web\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\spovedav96\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Christian Lopez\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -996,8 +992,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\PROYECTOS2022\\Netflix-Clone\\netflix-api\\netfllix.api.web\\netflix.api.application\\netflix.api.application.csproj": {
-              "projectPath": "D:\\PROYECTOS2022\\Netflix-Clone\\netflix-api\\netfllix.api.web\\netflix.api.application\\netflix.api.application.csproj"
+            "C:\\laragon\\www\\Netflix-Clone\\netflix-api\\netfllix.api.web\\netflix.api.application\\netflix.api.application.csproj": {
+              "projectPath": "C:\\laragon\\www\\Netflix-Clone\\netflix-api\\netfllix.api.web\\netflix.api.application\\netflix.api.application.csproj"
             }
           }
         }
@@ -1063,7 +1059,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.409\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }

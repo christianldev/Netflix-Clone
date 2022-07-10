@@ -1,19 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "oKYYpyvGBFhRezrKWJ5Z5DaH69uoccfAfuGy1UeatV5a71jSaBy7pTzUIpyTnFvHbAXi/+xjrU3t/Rl7lUfeIA==",
+  "dgSpecHash": "wRjbvH7svHgNKW5aW8JV9/WKy/briI9MUsFcYxyWOWRoIoSAIh2wlymwu+g1D54YVUNkrfLv8Mm8NEs27uGyUg==",
   "success": true,
-  "projectFilePath": "D:\\PROYECTOS2022\\Netflix-Clone\\netflix-api\\netfllix.api.web\\netflix.api.application\\netflix.api.application.csproj",
+  "projectFilePath": "C:\\laragon\\www\\Netflix-Clone\\netflix-api\\netfllix.api.web\\netflix.api.application\\netflix.api.application.csproj",
   "expectedPackageFiles": [
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
-    "C:\\Users\\spovedav96\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
-    "C:\\Users\\spovedav96\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
-    "C:\\Users\\spovedav96\\.nuget\\packages\\microsoft.identitymodel.abstractions\\6.20.0\\microsoft.identitymodel.abstractions.6.20.0.nupkg.sha512",
-    "C:\\Users\\spovedav96\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.20.0\\microsoft.identitymodel.jsonwebtokens.6.20.0.nupkg.sha512",
-    "C:\\Users\\spovedav96\\.nuget\\packages\\microsoft.identitymodel.logging\\6.20.0\\microsoft.identitymodel.logging.6.20.0.nupkg.sha512",
-    "C:\\Users\\spovedav96\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.20.0\\microsoft.identitymodel.tokens.6.20.0.nupkg.sha512",
-    "C:\\Users\\spovedav96\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.20.0\\system.identitymodel.tokens.jwt.6.20.0.nupkg.sha512",
-    "C:\\Users\\spovedav96\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512"
+    "C:\\Users\\Christian Lopez\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\Christian Lopez\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Christian Lopez\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\Christian Lopez\\.nuget\\packages\\microsoft.identitymodel.abstractions\\6.20.0\\microsoft.identitymodel.abstractions.6.20.0.nupkg.sha512",
+    "C:\\Users\\Christian Lopez\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.20.0\\microsoft.identitymodel.jsonwebtokens.6.20.0.nupkg.sha512",
+    "C:\\Users\\Christian Lopez\\.nuget\\packages\\microsoft.identitymodel.logging\\6.20.0\\microsoft.identitymodel.logging.6.20.0.nupkg.sha512",
+    "C:\\Users\\Christian Lopez\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.20.0\\microsoft.identitymodel.tokens.6.20.0.nupkg.sha512",
+    "C:\\Users\\Christian Lopez\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.20.0\\system.identitymodel.tokens.jwt.6.20.0.nupkg.sha512",
+    "C:\\Users\\Christian Lopez\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\Christian Lopez\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512"
   ],
   "logs": []
 }

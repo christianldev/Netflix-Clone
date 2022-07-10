@@ -1,10 +1,9 @@
 {
   "format": 1,
   "restore": {
-    "D:\\PROYECTOS2022\\Netflix-Clone\\netflix-api\\netfllix.api.web\\netflix.api.repo\\netflix.api.repo.csproj": {}
+    "C:\\laragon\\www\\Netflix-Clone\\netflix-api\\netfllix.api.web\\netflix.api.repo\\netflix.api.repo.csproj": {}
   },
   "projects": {
-<<<<<<< HEAD
     "C:\\laragon\\www\\Netflix-Clone\\netflix-api\\netfllix.api.web\\netflix.api.application\\netflix.api.application.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -13,22 +12,9 @@
         "projectPath": "C:\\laragon\\www\\Netflix-Clone\\netflix-api\\netfllix.api.web\\netflix.api.application\\netflix.api.application.csproj",
         "packagesPath": "C:\\Users\\Christian Lopez\\.nuget\\packages\\",
         "outputPath": "C:\\laragon\\www\\Netflix-Clone\\netflix-api\\netfllix.api.web\\netflix.api.application\\obj\\",
-=======
-    "D:\\PROYECTOS2022\\Netflix-Clone\\netflix-api\\netfllix.api.web\\netflix.api.application\\netflix.api.application.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\PROYECTOS2022\\Netflix-Clone\\netflix-api\\netfllix.api.web\\netflix.api.application\\netflix.api.application.csproj",
-        "projectName": "netflix.api.application",
-        "projectPath": "D:\\PROYECTOS2022\\Netflix-Clone\\netflix-api\\netfllix.api.web\\netflix.api.application\\netflix.api.application.csproj",
-        "packagesPath": "C:\\Users\\spovedav96\\.nuget\\packages\\",
-        "outputPath": "D:\\PROYECTOS2022\\Netflix-Clone\\netflix-api\\netfllix.api.web\\netflix.api.application\\obj\\",
->>>>>>> a77bd0fab77cc5472fdc60fee38607e77f29731f
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\spovedav96\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Christian Lopez\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -67,7 +53,6 @@
               "version": "[6.20.0, )"
             }
           },
-<<<<<<< HEAD
           "imports": [
             "net461",
             "net462",
@@ -138,8 +123,6 @@
               "version": "[3.1.26, )"
             }
           },
-=======
->>>>>>> a77bd0fab77cc5472fdc60fee38607e77f29731f
           "imports": [
             "net461",
             "net462",
@@ -155,80 +138,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.409\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "D:\\PROYECTOS2022\\Netflix-Clone\\netflix-api\\netfllix.api.web\\netflix.api.repo\\netflix.api.repo.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\PROYECTOS2022\\Netflix-Clone\\netflix-api\\netfllix.api.web\\netflix.api.repo\\netflix.api.repo.csproj",
-        "projectName": "netflix.api.repo",
-        "projectPath": "D:\\PROYECTOS2022\\Netflix-Clone\\netflix-api\\netfllix.api.web\\netflix.api.repo\\netflix.api.repo.csproj",
-        "packagesPath": "C:\\Users\\spovedav96\\.nuget\\packages\\",
-        "outputPath": "D:\\PROYECTOS2022\\Netflix-Clone\\netflix-api\\netfllix.api.web\\netflix.api.repo\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\spovedav96\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp3.1"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
-            "projectReferences": {
-              "D:\\PROYECTOS2022\\Netflix-Clone\\netflix-api\\netfllix.api.web\\netflix.api.application\\netflix.api.application.csproj": {
-                "projectPath": "D:\\PROYECTOS2022\\Netflix-Clone\\netflix-api\\netfllix.api.web\\netflix.api.application\\netflix.api.application.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[3.1.26, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[3.1.26, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.409\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

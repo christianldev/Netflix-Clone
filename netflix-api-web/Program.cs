@@ -1,10 +1,16 @@
 
 
 using netflix_api_application;
+using netflix_api_persistance;
+using netflix_api_shared;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
+builder.Services.AddPersistanceInfraestructure(builder.Configuration);
+builder.Services.AddSharedInfrasctructure(builder.Configuration);
+
 // Referecnia a servicios de la capa de aplicación.
 builder.Services.AddApplicationLayer();
 builder.Services.AddControllers();

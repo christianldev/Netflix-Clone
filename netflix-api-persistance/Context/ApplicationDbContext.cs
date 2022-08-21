@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using netflix_api_application.Interfaces;
@@ -12,6 +13,13 @@ namespace netflix_api_persistance.Context;
 public class ApplicationDbContext : DbContext
 {
     private readonly IDateTimeService _dateTimeService;
+
+    public ApplicationDbContext()
+    {
+
+    }
+
+
     public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options, IDateTimeService dateTime)
         : base(options)
     {
@@ -39,6 +47,12 @@ public class ApplicationDbContext : DbContext
             }
         }
         return base.SaveChangesAsync(cancellationToken);
+    }
+
+    // metodo para 
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
     }
 
 }

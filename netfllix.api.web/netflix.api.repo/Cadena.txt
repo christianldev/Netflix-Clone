@@ -1,5 +1,0 @@
-﻿CON USUARIO --- buscar
-Scaffod-DbContext "Server=localhost; Database=Blog; User=sa; Passwortd="*******";";
-
-SIN USUARIO
-Scaffold-DbContext "Server=localhost; Database=Netflix; Trusted_Connection=True" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models

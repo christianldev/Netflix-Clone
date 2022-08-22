@@ -19,8 +19,8 @@ public class Customer : AuditableBaseEntity
     public string Phone { get; set; }
     public string Email { get; set; }
     public string Password { get; set; }
-    public char Status { get; set; }
-
+    //default status 'active
+    public char Status { get; set; } = 'A';
 
     // Calculo de edad a partir de la fecha de nacimiento, verificar si es un usuario mayor o menor de edad
     public int Age

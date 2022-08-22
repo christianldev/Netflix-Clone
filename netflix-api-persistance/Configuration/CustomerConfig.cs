@@ -25,8 +25,8 @@ public class CustomerConfig : IEntityTypeConfiguration<Customer>
         builder.Property(p => p.BirthDate).IsRequired();
         builder.Property(p => p.Age);
         builder.Property(p => p.Status).HasDefaultValue('A');
-        builder.Property(p => p.CreatedBy).HasMaxLength(30).IsRequired();
-        builder.Property(p => p.LastModifiedBy).HasMaxLength(30).IsRequired();
+        builder.Property(p => p.CreatedBy).HasMaxLength(30);
+        builder.Property(p => p.LastModifiedBy).HasMaxLength(30);
 
     }
 }

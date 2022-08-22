@@ -38,11 +38,9 @@ public class ApplicationDbContext : DbContext
             {
                 case EntityState.Added:
                     entry.Entity.CreatedDate = _dateTimeService.NowUtc;
-                    entry.Entity.CreatedBy = "admin";
                     break;
                 case EntityState.Modified:
                     entry.Entity.LastModifiedDate = _dateTimeService.NowUtc;
-                    entry.Entity.LastModifiedBy = "admin";
                     break;
             }
         }

@@ -16,6 +16,9 @@ builder.Services.AddSharedInfrasctructure(builder.Configuration);
 builder.Services.AddApplicationLayer();
 builder.Services.AddControllers();
 
+// versionamento de la API.
+builder.Services.AddApiVersioningExtension();
+
 builder.Services.AddCors();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();

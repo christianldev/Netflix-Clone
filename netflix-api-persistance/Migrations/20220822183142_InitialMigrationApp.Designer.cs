@@ -12,7 +12,7 @@ using netflix_api_persistance.Context;
 namespace netflix_api_persistance.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20220821225957_InitialMigrationApp")]
+    [Migration("20220822183142_InitialMigrationApp")]
     partial class InitialMigrationApp
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -39,7 +39,6 @@ namespace netflix_api_persistance.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("CreatedBy")
-                        .IsRequired()
                         .HasMaxLength(30)
                         .HasColumnType("nvarchar(30)");
 
@@ -52,11 +51,10 @@ namespace netflix_api_persistance.Migrations
                         .HasColumnType("nvarchar(200)");
 
                     b.Property<string>("LastModifiedBy")
-                        .IsRequired()
                         .HasMaxLength(30)
                         .HasColumnType("nvarchar(30)");
 
-                    b.Property<DateTime>("LastModifiedDate")
+                    b.Property<DateTime?>("LastModifiedDate")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("LastName")

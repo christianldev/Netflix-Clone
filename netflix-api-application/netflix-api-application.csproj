@@ -16,4 +16,8 @@
     <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="10.0.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\netflix-api-domain\netflix-api-domain.csproj" />
+  </ItemGroup>
+
 </Project>

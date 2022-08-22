@@ -3,6 +3,7 @@
 using netflix_api_application;
 using netflix_api_persistance;
 using netflix_api_shared;
+using netflix_api_web.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -37,7 +38,7 @@ app.UseCors(builder => builder
     .AllowAnyHeader());
 
 app.UseAuthorization();
-
+app.UseErrorHandlingMiddleware();
 app.MapControllers();
 
 app.Run();

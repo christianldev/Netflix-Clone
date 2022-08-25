@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace netflix_api_domain.Settings
 {
-    public class JWT
+    public class JWTSettings
     {
         public string Key { get; set; }
         public string Issuer { get; set; }

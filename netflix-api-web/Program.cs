@@ -2,6 +2,7 @@
 
 using Microsoft.AspNetCore.Identity;
 using netflix_api_application;
+using netflix_api_identity;
 using netflix_api_identity.Models;
 using netflix_api_identity.Seeds;
 using netflix_api_persistance;
@@ -18,6 +19,7 @@ builder.Services.AddSharedInfrasctructure(builder.Configuration);
 
 // Referecnia a servicios de la capa de aplicación.
 builder.Services.AddApplicationLayer();
+builder.Services.AddIdentityInfraestructure(builder.Configuration);
 builder.Services.AddControllers();
 
 // versionamento de la API.

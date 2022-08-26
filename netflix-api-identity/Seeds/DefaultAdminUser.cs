@@ -18,7 +18,7 @@ namespace netflix_api_identity.Seeds
             {
                 UserName = "admin",
                 Email = "admin@gmail.com",
-                FirstName = "Christian",
+                Name = "Christian",
                 LastName = "Lopez",
                 EmailConfirmed = true,
                 PhoneNumberConfirmed = true

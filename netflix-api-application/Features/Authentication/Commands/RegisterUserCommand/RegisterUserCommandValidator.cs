@@ -24,6 +24,10 @@ public class RegisterUserCommandValidator : AbstractValidator<RegisterUserComman
             .EmailAddress().WithMessage("{PropertyName} no es un correo válido")
             .MaximumLength(100).WithMessage("{PropertyName} no puede tener más de 100 caracteres");
         RuleFor(x => x.Password).NotEmpty().MinimumLength(6);
+        RuleFor(x => x.ConfirmPassword)
+            .NotEmpty()
+            .MinimumLength(6)
+            .Equal(x => x.Password).WithMessage("Las contraseñas no coinciden");
     }
 }
 

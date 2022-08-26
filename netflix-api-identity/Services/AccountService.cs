@@ -148,7 +148,7 @@ namespace netflix_api_identity.Services
         {
             return new RefreshToken
             {
-                Token = RandomTokenString()
+                Token = RandomTokenString(),
                 ExpiresDate = DateTime.Now.AddDays(1),
                 CreatedDate = DateTime.Now,
                 CreatedByIp = ipAddress

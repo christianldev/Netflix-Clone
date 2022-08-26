@@ -12,7 +12,7 @@ namespace netflix_api_application.DTOs
         public string Token { get; set; }
         public DateTime ExpiresDate { get; set; }
 
-        public bool IsExpired => DateTime.UtcNow >= ExpiryDate;
+        public bool IsExpired => DateTime.UtcNow >= ExpiresDate;
 
         public DateTime CreatedDate { get; set; }
 

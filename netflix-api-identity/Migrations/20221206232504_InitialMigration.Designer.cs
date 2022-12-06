@@ -12,7 +12,7 @@ using netflix_api_identity.Context;
 namespace netflix_api_identity.Migrations
 {
     [DbContext(typeof(IdentityContext))]
-    [Migration("20220826162156_InitialMigration")]
+    [Migration("20221206232504_InitialMigration")]
     partial class InitialMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

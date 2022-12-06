@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using netflix_api_application.DTOs;
 using netflix_api_application.Enums;
@@ -11,8 +12,6 @@ using netflix_api_identity.Models;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Security.Cryptography;
-using Microsoft.AspNetCore.Cryptography.KeyDerivation;
-
 using System.Text;
 
 namespace netflix_api_identity.Services
@@ -26,10 +25,10 @@ namespace netflix_api_identity.Services
         private readonly SignInManager<ApplicationUser> _signInManager;
         private readonly IDateTimeService _dateTimeService;
 
-        public AccountService(UserManager<ApplicationUser> userManager, JWTSettings jwtSettings, RoleManager<IdentityRole> roleManager, SignInManager<ApplicationUser> signInManager, IDateTimeService dateTimeService)
+        public AccountService(UserManager<ApplicationUser> userManager, IOptions<JWTSettings> jwtSettings, RoleManager<IdentityRole> roleManager, SignInManager<ApplicationUser> signInManager, IDateTimeService dateTimeService)
         {
             _userManager = userManager;
-            _jwtSettings = jwtSettings;
+            _jwtSettings = jwtSettings.Value;
             _roleManager = roleManager;
             _signInManager = signInManager;
             _dateTimeService = dateTimeService;

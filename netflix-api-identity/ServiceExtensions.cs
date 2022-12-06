@@ -5,16 +5,14 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
+using netflix_api_application.Interfaces;
 using netflix_api_application.Wrappers;
 using netflix_api_domain.Settings;
 using netflix_api_identity.Context;
 using netflix_api_identity.Models;
+using netflix_api_identity.Services;
 using Newtonsoft.Json;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace netflix_api_identity
 {
@@ -28,6 +26,11 @@ namespace netflix_api_identity
                 b => b.MigrationsAssembly(typeof(IdentityContext).Assembly.FullName));
             });
             services.AddIdentity<ApplicationUser, IdentityRole>().AddEntityFrameworkStores<IdentityContext>().AddDefaultTokenProviders();
+            #region
+            services.AddTransient<IAccountServices, AccountService>();
+
+            #endregion
+
             services.Configure<JWTSettings>(configuration.GetSection("JWTSettings"));
             services.AddAuthentication(options =>
             {

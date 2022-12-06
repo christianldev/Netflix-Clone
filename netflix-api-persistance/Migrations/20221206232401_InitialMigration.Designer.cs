@@ -12,8 +12,8 @@ using netflix_api_persistance.Context;
 namespace netflix_api_persistance.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20220822183142_InitialMigrationApp")]
-    partial class InitialMigrationApp
+    [Migration("20221206232401_InitialMigration")]
+    partial class InitialMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

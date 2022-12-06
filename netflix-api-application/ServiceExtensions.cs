@@ -1,8 +1,8 @@
-using System.Reflection;
-using Microsoft.Extensions.DependencyInjection;
 using FluentValidation;
 using MediatR;
+using Microsoft.Extensions.DependencyInjection;
 using netflix_api_application.Behavior;
+using System.Reflection;
 
 namespace netflix_api_application
 {
@@ -14,6 +14,7 @@ namespace netflix_api_application
             services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());
             services.AddMediatR(Assembly.GetExecutingAssembly());
             services.AddTransient(typeof(IPipelineBehavior<,>), typeof(ValidationBehavior<,>));
+
         }
     }
 }

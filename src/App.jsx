@@ -1,34 +1,61 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import './App.css'
+import './App.css';
+
+import Navigation from './routes/Navigation';
+
+import {Authentication} from './pages/Authentication';
+import AuthContext from './context/AuthContext';
+import {useEffect, useMemo, useState} from 'react';
+import jwtDecode from 'jwt-decode';
 
 function App() {
-  const [count, setCount] = useState(0)
+	const [auth, setAuth] = useState(undefined);
+	const [error, setError] = useState('');
 
-  return (
-    <div className="App">
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src="/vite.svg" className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://reactjs.org" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </div>
-  )
+	useEffect(() => {
+		const token = localStorage.getItem('token');
+
+		if (!token) {
+			setAuth(null);
+		} else if (token) {
+			const decoded = jwtDecode(token);
+			const currentTime = Date.now() / 1000;
+			if (decoded.exp < currentTime) {
+				setAuth(null);
+			} else {
+				setAuth(decoded);
+			}
+		}
+	}, []);
+
+	const login = (userInfo) => {
+		localStorage.setItem('token', userInfo);
+		const user = jwtDecode(userInfo);
+		setAuth(user);
+	};
+
+	const logout = () => {
+		localStorage.removeItem('token');
+		setAuth(null);
+	};
+
+	const authData = useMemo(
+		() => ({
+			auth,
+			login,
+			logout,
+			error,
+			setError,
+		}),
+		[auth]
+	);
+
+	if (auth === undefined) return null;
+
+	return (
+		<AuthContext.Provider value={authData}>
+			{!auth ? <Authentication /> : <Navigation />}
+		</AuthContext.Provider>
+	);
 }
 
-export default App
+export default App;

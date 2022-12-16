@@ -1,11 +1,7 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Netflix.Infraestructure.Commons.Bases;
 using Netflix.Infraestructure.Persistences.Interfaces;
 using System.Linq.Dynamic.Core;
 using Netflix.Infraestructure.Helpers;
+using Netflix.Infraestructure.Commons.Bases.Request;
 
 namespace Netflix.Infraestructure.Persistences.Repositories
 {

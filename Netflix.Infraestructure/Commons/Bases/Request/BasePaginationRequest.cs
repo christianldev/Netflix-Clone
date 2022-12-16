@@ -1,4 +1,4 @@
-namespace Netflix.Infraestructure.Commons.Bases
+namespace Netflix.Infraestructure.Commons.Bases.Request
 {
     public class BasePaginationRequest
     {

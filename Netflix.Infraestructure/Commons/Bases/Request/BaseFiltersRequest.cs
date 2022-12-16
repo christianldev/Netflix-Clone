@@ -12,6 +12,6 @@ namespace Netflix.Infraestructure.Commons.Bases.Request
         public int? StateFilter { get; set; } = null;
         public string? StartDate { get; set; } = null;
         public string? EndDate { get; set; } = null;
-        public bool? Download { get; set; } = null;
+        public bool? Download { get; set; } = false;
     }
 }

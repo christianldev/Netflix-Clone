@@ -8,6 +8,7 @@ using Netflix.Infraestructure.Commons.Bases.Request;
 using Netflix.Infraestructure.Commons.Bases.Response;
 using Netflix.Infraestructure.Persistences.Context;
 using Netflix.Infraestructure.Persistences.Interfaces;
+using Netflix.Utilities.Static;
 
 namespace Netflix.Infraestructure.Persistences.Repositories
 {
@@ -62,7 +63,7 @@ namespace Netflix.Infraestructure.Persistences.Repositories
         public async Task<IEnumerable<Category>> ListSelectCategories()
         {
             var categories = await _context.Categories
-                 .Where(c => c.State.Equals(1) && c.AuditDeleteUser == null && c.AuditDeleteDate == null)
+                 .Where(c => c.State.Equals((int)StateTypes.Active) && c.AuditDeleteUser == null && c.AuditDeleteDate == null)
                  .AsNoTracking().ToListAsync();
             return categories;
         }

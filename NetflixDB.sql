@@ -149,9 +149,9 @@ SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
 GO
-CREATE TABLE [dbo].[PurcharseDetails](
-	[PurcharseDetailId] [int] IDENTITY(1,1) NOT NULL,
-	[PurcharseId] [int] NULL,
+CREATE TABLE [dbo].[PurchaseDetails](
+	[PurchaseDetailId] [int] IDENTITY(1,1) NOT NULL,
+	[PurchaseId] [int] NULL,
 	[ProductId] [int] NULL,
 	[Quantity] [int] NULL,
 	[Price] [decimal](18, 2) NULL,
@@ -163,7 +163,7 @@ CREATE TABLE [dbo].[PurcharseDetails](
 	[AuditDeleteDate] [datetime2](7) NULL,
 PRIMARY KEY CLUSTERED
 (
-	[PurcharseDetailId] ASC
+	[PurchaseDetailId] ASC
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
@@ -172,11 +172,11 @@ SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
 GO
-CREATE TABLE [dbo].[Purcharses](
-	[PurcharseId] [int] IDENTITY(1,1) NOT NULL,
+CREATE TABLE [dbo].[Purchases](
+	[PurchaseId] [int] IDENTITY(1,1) NOT NULL,
 	[ProviderId] [int] NULL,
 	[UserId] [int] NULL,
-	[PurcharseDate] [datetime2](7) NULL,
+	[PurchaseDate] [datetime2](7) NULL,
 	[Tax] [decimal](18, 2) NULL,
 	[Total] [decimal](18, 2) NULL,
 	[State] [int] NULL,
@@ -188,7 +188,7 @@ CREATE TABLE [dbo].[Purcharses](
 	[AuditDeleteDate] [datetime2](7) NULL,
 PRIMARY KEY CLUSTERED
 (
-	[PurcharseId] ASC
+	[PurchaseId] ASC
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
@@ -280,9 +280,14 @@ SET QUOTED_IDENTIFIER ON
 GO
 CREATE TABLE [dbo].[Users](
 	[UserId] [int] IDENTITY(1,1) NOT NULL,
+	[FirstName] [varchar](50) NULL,
+	[LastName] [varchar](50) NULL,
 	[UserName] [varchar](50) NULL,
-	[Password] [varchar](max) NULL,
 	[Email] [varchar](max) NULL,
+	[Password] [varchar](max) NULL,
+	[Birthdate] [datetime2](7) NULL,
+	[Phone] [varchar](50) NULL,
+	[Address] [varchar](max) NULL,
 	[Image] [varchar](max) NULL,
 	[State] [int] NULL,
 	[AuditCreateUser] [int] NOT NULL,
@@ -322,10 +327,10 @@ REFERENCES [dbo].[Roles] ([RoleId])
 GO
 ALTER TABLE [dbo].[MenuRoles] CHECK CONSTRAINT [FK_MenuRoles_Roles]
 GO
-ALTER TABLE [dbo].[PurcharseDetails]  WITH CHECK ADD FOREIGN KEY([PurcharseId])
-REFERENCES [dbo].[Purcharses] ([PurcharseId])
+ALTER TABLE [dbo].[PurchaseDetails]  WITH CHECK ADD FOREIGN KEY([PurchaseId])
+REFERENCES [dbo].[Purchases] ([PurchaseId])
 GO
-ALTER TABLE [dbo].[Purcharses]  WITH CHECK ADD FOREIGN KEY([UserId])
+ALTER TABLE [dbo].[Purchases]  WITH CHECK ADD FOREIGN KEY([UserId])
 REFERENCES [dbo].[Users] ([UserId])
 GO
 ALTER TABLE [dbo].[SaleDetails]  WITH CHECK ADD FOREIGN KEY([SaleId])

@@ -3,15 +3,15 @@ using System.Collections.Generic;
 
 namespace Netflix.Domain.Entities;
 
-public partial class Purcharse
+public partial class Purchase
 {
-    public int PurcharseId { get; set; }
+    public int PurchaseId { get; set; }
 
     public int? ProviderId { get; set; }
 
     public int? UserId { get; set; }
 
-    public DateTime? PurcharseDate { get; set; }
+    public DateTime? PurchaseDate { get; set; }
 
     public decimal? Tax { get; set; }
 
@@ -31,7 +31,7 @@ public partial class Purcharse
 
     public DateTime? AuditDeleteDate { get; set; }
 
-    public virtual ICollection<PurcharseDetail> PurcharseDetails { get; } = new List<PurcharseDetail>();
+    public virtual ICollection<PurchaseDetail> PurchaseDetails { get; } = new List<PurchaseDetail>();
 
     public virtual User? User { get; set; }
 }

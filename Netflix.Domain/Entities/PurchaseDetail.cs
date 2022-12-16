@@ -3,11 +3,11 @@ using System.Collections.Generic;
 
 namespace Netflix.Domain.Entities;
 
-public partial class PurcharseDetail
+public partial class PurchaseDetail
 {
-    public int PurcharseDetailId { get; set; }
+    public int PurchaseDetailId { get; set; }
 
-    public int? PurcharseId { get; set; }
+    public int? PurchaseId { get; set; }
 
     public int? ProductId { get; set; }
 
@@ -27,5 +27,5 @@ public partial class PurcharseDetail
 
     public DateTime? AuditDeleteDate { get; set; }
 
-    public virtual Purcharse? Purcharse { get; set; }
+    public virtual Purchase? Purchase { get; set; }
 }

@@ -8,7 +8,7 @@ namespace Netflix.Utilities.Static
     public class ReplyMessage
     {
         public const string MESSAGE_QUERY = "Consulta exitosa";
-        public const string MESSAGE_EMPTY = "No se encontraron registros";
+        public const string MESSAGE_QUERY_EMPTY = "No se encontraron registros";
         public const string MESSAGE_INSERT = "Registro insertado correctamente";
         public const string MESSAGE_UPDATE = "Registro actualizado correctamente";
         public const string MESSAGE_DELETE = "Registro eliminado correctamente";

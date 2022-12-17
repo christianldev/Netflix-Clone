@@ -26,6 +26,7 @@ namespace Netflix.Application.Extensions
 
             services.AddAutoMapper(Assembly.GetExecutingAssembly());
             services.AddScoped<ICategoryApplication, CategoryApplication>();
+            services.AddScoped<IUserApplication, UserApplication>();
 
             return services;
         }

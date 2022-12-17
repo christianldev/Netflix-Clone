@@ -15,6 +15,7 @@ namespace Netflix.Utilities.Static
         public const string MESSAGE_EXIST = "El registro ya existe";
         public const string MESSAGE_ACTIVE = "Registro activado correctamente";
         public const string MESSAGE_TOKEN = "Token generado correctamente";
+        public const string MESSAGE_LOGIN_FAILED = "Usuario o contraseña incorrectos";
         public const string MESSAGE_ERROR_VALIDATION = "Error de validación";
         public const string MESSAGE_FAILED = "Error al procesar la solicitud";
     }

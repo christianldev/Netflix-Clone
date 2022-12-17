@@ -1,6 +1,6 @@
 using Netflix.Application.Commons.Bases;
-using Netflix.Application.Dtos.Request;
-using Netflix.Application.Dtos.Response;
+using Netflix.Application.Dtos.Category.Request;
+using Netflix.Application.Dtos.Category.Response;
 using Netflix.Infraestructure.Commons.Bases.Request;
 using Netflix.Infraestructure.Commons.Bases.Response;
 

@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using FluentValidation;
-using Netflix.Application.Dtos.Request;
+using Netflix.Application.Dtos.Category.Request;
+
 using Netflix.Utilities.Static;
 
 namespace Netflix.Application.Validators.Category

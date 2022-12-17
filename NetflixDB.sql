@@ -289,13 +289,13 @@ CREATE TABLE [dbo].[Users](
 	[Phone] [varchar](50) NULL,
 	[Address] [varchar](max) NULL,
 	[Image] [varchar](max) NULL,
-	[State] [int] NULL,
+	[State] [int] NOT NULL DEFAULT ((1)),
 	[AuditCreateUser] [int] NOT NULL,
 	[AuditCreateDate] [datetime2](7) NOT NULL,
 	[AuditUpdateUser] [int] NULL,
 	[AuditUpdateDate] [datetime2](7) NULL,
 	[AuditDeleteUser] [int] NULL,
-	[AuditDeleteDate] [datetime2](7) NOT NULL,
+	[AuditDeleteDate] [datetime2](7) NULL,
 PRIMARY KEY CLUSTERED
 (
 	[UserId] ASC

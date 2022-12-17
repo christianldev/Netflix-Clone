@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Netflix.Application.Dtos.Response
+namespace Netflix.Application.Dtos.Category.Response
 {
     public class CategoryResponseDto
     {

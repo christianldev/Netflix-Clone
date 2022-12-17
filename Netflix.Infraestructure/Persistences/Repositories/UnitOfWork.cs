@@ -12,10 +12,13 @@ namespace Netflix.Infraestructure.Persistences.Repositories
         private readonly NetflixApiContext _context;
         public ICategoryRepository Category { get; private set; }
 
+        public IUserRepository User { get; private set; }
+
         public UnitOfWork(NetflixApiContext context)
         {
             _context = context;
             Category = new CategoryRepository(_context);
+            User = new UserRepository(_context);
         }
 
 

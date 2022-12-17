@@ -1,7 +1,7 @@
 using AutoMapper;
 using Netflix.Application.Commons.Bases;
-using Netflix.Application.Dtos.Request;
-using Netflix.Application.Dtos.Response;
+using Netflix.Application.Dtos.Category.Request;
+using Netflix.Application.Dtos.Category.Response;
 using Netflix.Application.Interfaces;
 using Netflix.Application.Validators.Category;
 using Netflix.Domain.Entities;

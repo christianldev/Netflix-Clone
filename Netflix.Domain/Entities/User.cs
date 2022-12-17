@@ -3,9 +3,8 @@ using System.Collections.Generic;
 
 namespace Netflix.Domain.Entities;
 
-public partial class User
+public partial class User : BaseEntity
 {
-    public int UserId { get; set; }
 
     public string? FirstName { get; set; }
 
@@ -24,21 +23,6 @@ public partial class User
     public string? Address { get; set; }
 
     public string? Image { get; set; }
-
-    public int? State { get; set; }
-
-    public int AuditCreateUser { get; set; }
-
-    public DateTime AuditCreateDate { get; set; }
-
-    public int? AuditUpdateUser { get; set; }
-
-    public DateTime? AuditUpdateDate { get; set; }
-
-    public int? AuditDeleteUser { get; set; }
-
-    public DateTime AuditDeleteDate { get; set; }
-
     public virtual ICollection<Purchase> Purchases { get; } = new List<Purchase>();
 
     public virtual ICollection<Sale> Sales { get; } = new List<Sale>();

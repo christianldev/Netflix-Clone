@@ -14,6 +14,6 @@ namespace Netflix.Domain.Entities
         public DateTime? AuditUpdateDate { get; set; }
         public int? AuditDeleteUser { get; set; }
         public DateTime? AuditDeleteDate { get; set; }
-        public int? State { get; set; }
+        public int? State { get; set; } = 1;
     }
 }

@@ -13,6 +13,7 @@ namespace Netflix.Application.Mappers
         {
 
             CreateMap<Category, CategoryResponseDto>()
+            .ForMember(x => x.CategoryId, x => x.MapFrom(y => y.Id))
                 .ForMember(x => x.StateCategory,
                 x => x.MapFrom(y => y.State.Equals((int)StateTypes.Active) ? "Activo" : "Inactivo"))
                 .ReverseMap();
@@ -22,7 +23,8 @@ namespace Netflix.Application.Mappers
 
             CreateMap<CategoryRequestDto, Category>();
 
-            CreateMap<CategorySelectResponseDto, Category>()
+            CreateMap<Category, CategorySelectResponseDto>()
+                .ForMember(x => x.CategoryId, x => x.MapFrom(y => y.Id))
                 .ReverseMap();
         }
     }

@@ -6,6 +6,7 @@ namespace Netflix.Domain.Entities;
 public partial class User : BaseEntity
 {
 
+
     public string? FirstName { get; set; }
 
     public string? LastName { get; set; }
@@ -23,6 +24,8 @@ public partial class User : BaseEntity
     public string? Address { get; set; }
 
     public string? Image { get; set; }
+
+
     public virtual ICollection<Purchase> Purchases { get; } = new List<Purchase>();
 
     public virtual ICollection<Sale> Sales { get; } = new List<Sale>();

@@ -17,9 +17,9 @@ namespace Netflix.Infraestructure.Persistences.Repositories
             _context = context;
         }
 
-        public async Task<User> AccountByUserName(string userName)
+        public async Task<User> AccountByEmail(string email)
         {
-            var account = await _context.Users.AsNoTracking().FirstOrDefaultAsync(x => x.UserName!.Equals(userName));
+            var account = await _context.Users.AsNoTracking().FirstOrDefaultAsync(x => x.Email!.Equals(email));
             return account!;
         }
     }

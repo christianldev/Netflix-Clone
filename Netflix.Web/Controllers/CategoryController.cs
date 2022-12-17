@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Netflix.Application.Dtos.Category.Request;
 using Netflix.Application.Interfaces;
@@ -9,6 +10,7 @@ using Netflix.Infraestructure.Commons.Bases.Request;
 
 namespace Netflix.Web.Controllers
 {
+    [Authorize]
     [ApiController]
     [Route("api/[controller]")]
     public class CategoryController : ControllerBase

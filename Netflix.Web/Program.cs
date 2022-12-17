@@ -1,5 +1,6 @@
 using Netflix.Application.Extensions;
 using Netflix.Infraestructure.Extensions;
+using Netflix.Web.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,11 +9,12 @@ var Configuration = builder.Configuration;
 
 builder.Services.AddInjectionInfraestructure(Configuration);
 builder.Services.AddInjectionApplication(Configuration);
+builder.Services.AddAuthentication(Configuration);
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwagger();
 
 var app = builder.Build();
 
@@ -24,6 +26,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseAuthentication();
 
 app.UseAuthorization();
 

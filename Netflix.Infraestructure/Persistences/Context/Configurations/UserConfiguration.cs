@@ -12,9 +12,9 @@ namespace Netflix.Infraestructure.Persistences.Context.Configurations
     {
         public void Configure(EntityTypeBuilder<User> builder)
         {
-            builder.HasKey(e => e.Id).HasName("PK__Users__1788CC4C75D70185");
-
+            builder.HasKey(e => e.Id).HasName("PK__Users__1788CC4C4BFA0114");
             builder.Property(e => e.Id).HasColumnName("UserId");
+
 
             builder.Property(e => e.Address).IsUnicode(false);
             builder.Property(e => e.Email).IsUnicode(false);
@@ -29,6 +29,7 @@ namespace Netflix.Infraestructure.Persistences.Context.Configurations
             builder.Property(e => e.Phone)
                 .HasMaxLength(50)
                 .IsUnicode(false);
+            builder.Property(e => e.State).HasDefaultValueSql("((1))");
             builder.Property(e => e.UserName)
                 .HasMaxLength(50)
                 .IsUnicode(false);

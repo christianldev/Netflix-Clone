@@ -32,7 +32,7 @@ namespace Netflix.Application.Services
         public async Task<BaseResponse<string>> AuthenticateUser(TokenRequestDto requestDto)
         {
             var response = new BaseResponse<string>();
-            var account = await _unitOfWork.User.AccountByUserName(requestDto.Email!);
+            var account = await _unitOfWork.User.AccountByEmail(requestDto.Email!);
 
             if (account is not null)
             {
@@ -67,8 +67,7 @@ namespace Netflix.Application.Services
             }
 
             var account = _mapper.Map<User>(requestDto,
-                opt => opt.BeforeMap((src, dest) => dest.State = 1));
-
+                opt => opt.AfterMap((src, dest) => dest.State = 1));
             account.Password = BC.HashPassword(account.Password);
 
             response.Data = await _unitOfWork.User.RegisterAsync(account);
@@ -90,7 +89,7 @@ namespace Netflix.Application.Services
         public async Task<BaseResponse<string>> RefreshToken(TokenRequestDto requestDto)
         {
             var response = new BaseResponse<string>();
-            var account = await _unitOfWork.User.AccountByUserName(requestDto.Email!);
+            var account = await _unitOfWork.User.AccountByEmail(requestDto.Email!);
 
             if (account is not null)
             {
